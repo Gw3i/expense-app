@@ -1,13 +1,16 @@
 import GlobalStyle from "./GlobalStyle";
 import StyledTitel from "./StyledComponents/StyledTitel";
+import StyledMain from "./StyledComponents/StyledMain";
+import StyledForm from "./Components/ExpenseInput";
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <div className="App">
+      <StyledMain>
         <StyledTitel>Expense App</StyledTitel>
-      </div>
+        <StyledForm />
+      </StyledMain>
     </>
   );
 }

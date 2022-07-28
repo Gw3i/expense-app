@@ -9,15 +9,19 @@ const GlobalStyle = createGlobalStyle`
 body {
     margin: 0;
     padding: 0;
-    font-size: 62.5%
+    font-size: 62.5%;
     font-family: 'Share Tech Mono', monospace;
+    background-color: var(--background-color);
+}
+
+p, input, label {
+    font-size: 1rem;
 }
 
 
 root {
-
     --primary-color: #fdf8f1;
-    --background-color: #15202c
+    --background-color: #15202c;
 }
 `;
 
