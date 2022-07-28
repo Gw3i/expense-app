@@ -12,6 +12,7 @@ body {
     font-size: 62.5%;
     font-family: 'Share Tech Mono', monospace;
     background-color: var(--background-color);
+    color: var(--primary-color)
 }
 
 p, input, label {
@@ -19,9 +20,11 @@ p, input, label {
 }
 
 
-root {
-    --primary-color: #fdf8f1;
-    --background-color: #15202c;
+:root {
+    --primary-color: #f5f1eb;
+    --background-color: #0c0e14;
+
+    --accent-color: #38FF13;
 }
 `;
 

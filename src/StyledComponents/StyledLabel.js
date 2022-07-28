@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-const StyledLabel = styled.label`
-  margin-right: 5px;
-`;
+const StyledLabel = styled.label``;
 
 export default StyledLabel;
